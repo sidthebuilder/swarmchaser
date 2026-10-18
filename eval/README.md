@@ -10,7 +10,7 @@
 
 ## Caveats
 
-- **One annotator, AI-assisted.** The labels have not been checked independently. Treat the number as an estimate and re-label before relying on it.
+- **Single annotator.** The labels have not been checked independently. Treat the number as an estimate and re-label before relying on it.
 - **This review changed the detector.** The first version flagged nine agent-recruitment swarms. Six of them were bug reports quoting API endpoints, or unrelated posts that @-mentioned the same famous account. That led to two fixes:
   - endpoint paths alone no longer count as injection
   - campaigns linked only by a named beneficiary must repeat their text

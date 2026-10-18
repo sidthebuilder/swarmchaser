@@ -49,7 +49,7 @@ Signature-based attribution doesn't help: my earlier work in this repo showed th
 ## Validation
 
 - **Planted recall.** Six of seven planted swarm types recovered with recall 1.0 and purity 1.0 inside the real corpus. The seventh, a synchronised swarm with fully distinct text, is missed. It's documented and pinned by a test.
-- **Precision.** 65% over the top 40 swarms, or 77% excluding unclear cases. The labels come from one AI-assisted annotator, and the review that produced them also fixed two false-positive sources, so the figure is not held out.
+- **Precision.** 65% over the top 40 swarms, or 77% excluding unclear cases. The labels come from a single annotator and have not been independently double-checked, and the review that produced them also fixed two false-positive sources, so the figure is not held out.
 - **Tests.** 108 passing. They include synthetic worlds where the contagion test must find real transmission and must flag pure selection through the placebo.
 
 ## Related work and what is new here
